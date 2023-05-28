@@ -16,12 +16,12 @@ https://firebase.google.com/docs/admin/setup
 ## 環境構築の大枠の流れ
 globalにfirebaseのtoolを入れた後に、<br>
 firebase login、で(一度ブラウザが立ち上がり)cli上でログイン連携する。<br>
-それからfirebase init、で開始。<br><br>
+それからfirebase init、で開始。<br>
 
-・ライブラリのvite-tsconfig-paths でシンボルパスを簡略化できる
+※ライブラリのvite-tsconfig-paths でシンボルパスを簡略化できる
 
 ## コマンド一覧
-yarn build ・・・ ものをbuildする
+yarn build ・・・ buildする<br>
 yarn deploy ・・・連結しているfirebase上にアプリをアップできる
 
 ## デプロイurl
