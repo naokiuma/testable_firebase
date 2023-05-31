@@ -19,7 +19,6 @@ const firebaseConfig = {
 };
 
 initializeApp(firebaseConfig)
-export {Timestamp}
 export type WithId<T> = T & { id:string }//idとともに型を必要とする
 
 
@@ -39,6 +38,9 @@ const getCoverter = <T>():FirestoreDataConverter<WithId<T>> => ({
 	}
 
 })
+
+export {Timestamp,getCoverter}
+
 
 // 下記だとうまくいく
 // todo:差分を確認。extendsが影響？
